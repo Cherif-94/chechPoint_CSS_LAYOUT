@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #747474;
+}
+/*............... this is a header part................. */
+
+.Navbar {
+  /* box model  */
+  margin: 2% 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.Navbar img {
+  width: 268px;
+  height: 33px;
+}
+.listNav {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+.listNav a {
+  color: #ababab;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 0.9375rem;
+}
+
+.listNav a:hover {
+  color: #00b39b;
+}
+a.active {
+  color: #00b39b;
+}
+/* ...............Main part................. */
+
+/* ...............this is a healthcare part ( first bloc of the main................. */
+.healthcare {
+  margin: 2% 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.healthcare img {
+  width: 5%;
+}
+.healthcare h2 {
+  font-size: 2.125rem;
+  color: #00b39b;
+  margin: 1em 0;
+  font-family: Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+}
+.description {
+  display: flex;
+  justify-content: space-between;
+}
+.description p {
+  padding: 3%;
+  color: #747474;
+  line-height: 1.75;
+  font-size: 18px;
+}
+/* ..........this is a cards part................ */
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 10%;
+}
+.card-patients {
+  background-color: #00ccb1;
+  border-radius: 10px;
+  padding: 1% 1%;
+}
+.card-patients h1 {
+  font-size: 1.625em;
+  font-weight: 400;
+  color: #fff;
+  margin: 2% 10%;
+}
+.card-patients h2 {
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.2;
+  color: #fff;
+  margin: 2% 10%;
+}
+.card-patients img {
+  margin: 2% 10%;
+}
+.select {
+  /* margin: 2% 10%; */
+  margin-top: 30%;
+}
+.card-patients {
+  background-color: #3d83df;
+  border-radius: 10px;
+  width: 30%;
+}
+.card-doctors {
+  background-color: #00ccb1;
+  border-radius: 10px;
+  padding: 1% 1%;
+  width: 30%;
+}
+.card-doctors img {
+  margin: 2% 10%;
+}
+.card-doctors h1 {
+  font-size: 1.625em;
+  font-weight: 400;
+  color: #fff;
+  margin: 2% 10%;
+}
+.card-doctors h2 {
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.2;
+  color: #fff;
+  margin: 2% 10%;
+}
+.clinics {
+  background-color: #1b2734;
+  color: white;
+  border-radius: 10px;
+  padding: 1% 1%;
+  width: 30%;
+}
+.clinics img {
+  margin: 2% 10%;
+}
+.clinics h1 {
+  font-size: 1.625em;
+  font-weight: 400;
+  color: #fff;
+  margin: 2% 10%;
+}
+.clinics h2 {
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.2;
+  color: #fff;
+  margin: 2% 10%;
+}
+.brandsLogo a path {
+  transition: all 0.2s ease 0s;
+  fill: hsla(0, 0%, 67%, 0.7);
+}
+li {
+  list-style: none;
+}
+.company {
+  /* box model */
+  margin: 6% 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.company h1 {
+  float: left;
+  width: 33%;
+  font-size: 1.625em;
+  margin: 0.25em 0 0.35em;
+  padding-right: 1em;
+  color: #00b39b;
+  font-weight: 100;
+}
+.brandsLogo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.brands__logos .clinicloud {
+  width: 90%;
+}
+.brands__logos li {
+  font-size: 1rem;
+  padding: 5px 0;
+  display: inline-block;
+}
+.brands__logos .tuotempo {
+  width: 175px;
+}
+.brands__logos a {
+  display: inline-block;
+  padding: 5px 0;
+}
+.stats {
+  /* box model */
+  background-color: #e5faf8;
+  display: flex;
+}
+.description-stat {
+  padding: 50px;
+}
+.description-stat p {
+  padding: 20px;
+}
+
+.description-stat img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.countries h1 {
+  margin: 4% 35%;
+  font-size: 2.125rem;
+  color: #00b39b;
+  font-weight: 100;
+}
+.countries p {
+  line-height: 1.7142857143;
+}
+.country {
+  margin: 3% 3%;
+  border-radius: 20px;
+}
+.country img {
+  border-radius: 20px;
+}
+
+.after_country {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 0;
+}
+.after_country a {
+  text-decoration: none;
+  float: right;
+  padding: 3%;
+  margin: 0 7%;
+  background-color: #3d83df;
+  color: white;
+  letter-spacing: 0.04em;
+  text-align: center;
+  border-radius: 5px;
+}
+.after_country p {
+  margin: 0 5%;
+  font-size: x-large;
+}
+.card_countries {
+  margin: 2% 10%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+}
+.country:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+.join_us {
+  margin: 3% 10%;
+}
+.join_us a {
+  margin: 2% 40%;
+  padding: 1.1666666667em 1.5em;
+  background-color: #3d83df;
+  border-radius: 4px;
+  letter-spacing: 0.04em;
+  font-size: 0.75rem;
+  color: #fff;
+  text-decoration: none;
+}
+.join_us h1 {
+  margin: 5% 25%;
+  font-size: 2.125rem;
+  font-weight: 100;
+}
+/* ...............this is a footer part.............. */
+footer {
+  margin: 2%;
+}
+footer p {
+  text-align: center;
+  padding: 10px;
+}
+hr {
+  margin-top: 7%;
+}
+
+/* ........... */
+.statsItem {
+  /* background: #fff; */
+  border-radius: 5px;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+  height: 250px;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.8125em;
+}
+.statsItem h3 {
+  padding: 35px;
+}
